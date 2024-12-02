@@ -16,7 +16,7 @@
     "*.{svelte,js,ts}": [
       "eslint --quiet --fix ."
     ],
-    "*.{json,svelte,js,ts,html}": [
+    "*": [
       "prettier --write --ignore-unknown ."
     ]
   },
